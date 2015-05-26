@@ -1,3 +1,7 @@
+[![Code Climate](https://codeclimate.com/github/Telmate/metabridge/badges/gpa.svg)](https://codeclimate.com/github/Telmate/metabridge)
+[![Test Coverage](https://codeclimate.com/github/Telmate/metabridge/badges/coverage.svg)](https://codeclimate.com/github/Telmate/metabridge/coverage)
+[![Dependency Status](https://gemnasium.com/Telmate/metabridge.svg)](https://gemnasium.com/Telmate/metabridge)
+
 # metabridge
 
 metabridge is a tool that enables easy access to the Android Debug Brige.
