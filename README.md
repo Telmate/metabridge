@@ -1,4 +1,5 @@
 [![Gem Version](https://badge.fury.io/rb/metabridge.svg)](http://badge.fury.io/rb/metabridge)
+[![Build Status](https://travis-ci.org/Telmate/metabridge.svg)](https://travis-ci.org/Telmate/metabridge)
 [![Code Climate](https://codeclimate.com/github/Telmate/metabridge/badges/gpa.svg)](https://codeclimate.com/github/Telmate/metabridge)
 [![Test Coverage](https://codeclimate.com/github/Telmate/metabridge/badges/coverage.svg)](https://codeclimate.com/github/Telmate/metabridge/coverage)
 [![Dependency Status](https://gemnasium.com/Telmate/metabridge.svg)](https://gemnasium.com/Telmate/metabridge)
