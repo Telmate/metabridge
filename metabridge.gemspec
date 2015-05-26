@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["max@throwpoint.ro"]
 
   spec.summary       = %q{Get logcat output from a remote Android tablet.}
-  spec.description   = %q{Get logcat output from a remote Android tablet using adb commands'}
+  spec.description   = %q{Get logcat output from a remote Android tablet using adb commands.}
   spec.homepage      = "https://github.com/Telmate/metabridge"
   spec.license       = "MIT"
 

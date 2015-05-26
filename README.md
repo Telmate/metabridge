@@ -1,3 +1,9 @@
+[![Gem Version](https://badge.fury.io/rb/metabridge.svg)](http://badge.fury.io/rb/metabridge)
+[![Build Status](https://travis-ci.org/Telmate/metabridge.svg)](https://travis-ci.org/Telmate/metabridge)
+[![Code Climate](https://codeclimate.com/github/Telmate/metabridge/badges/gpa.svg)](https://codeclimate.com/github/Telmate/metabridge)
+[![Test Coverage](https://codeclimate.com/github/Telmate/metabridge/badges/coverage.svg)](https://codeclimate.com/github/Telmate/metabridge/coverage)
+[![Dependency Status](https://gemnasium.com/Telmate/metabridge.svg)](https://gemnasium.com/Telmate/metabridge)
+
 # metabridge
 
 metabridge is a tool that enables easy access to the Android Debug Brige.
@@ -40,7 +46,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/heimdallr/fork )
+1. Fork it ( https://github.com/Telmate/metabridge/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
