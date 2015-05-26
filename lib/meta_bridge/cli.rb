@@ -14,7 +14,7 @@ get the state of the device using the Android Debug Bridge.
 
 Example usage:
 
-  $ heim list\x5
+  $ metabridge list\x5
   Device found: 10.10.1.50      00:27:22:d4:d5:da\x5
   Device found: 10.10.1.79      ac:22:0b:45:99:49\x5
   Device found: 10.10.1.82      ac:22:0b:67:94:91\x5
@@ -43,15 +43,15 @@ RAG
   long_desc <<RAG
 Get the output of logcat for a specific Android device using the Android
 Debug Bridge. The required parameter is the device MAC address, which can be
-obtained using `heim list`
+obtained using `metabridge list`
 
 Example usage:
 
-  $ heim log -d 00:27:22:d4:d5:da
+  $ metabridge log -d 00:27:22:d4:d5:da
   <OUTPUT>
 
 In order to save the output to a file, simply run the following command:
-  $ heim log -d 00:27:22:d4:d5:da > logcat.txt
+  $ metabridge log -d 00:27:22:d4:d5:da > logcat.txt
 RAG
   def log
     mac = options[:d]
