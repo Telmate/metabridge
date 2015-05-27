@@ -24,11 +24,11 @@ class MetaBridge::Bridge
   end
 
   def connect_to_device
-    run(adb 'connect', device_id)
+    run("adb connect #{device_id}")
   end
 
   def adb(subcommand, params = [])
-    connect_to_device if device_id && subcommand != 'connect'
+    connect_to_device if device_id
 
     cmd = []
     params = params.respond_to?(:join) ? params.join(' ') : params.to_s
@@ -36,7 +36,7 @@ class MetaBridge::Bridge
     cmd << 'adb'
     cmd << "-s #{device_id}" if device_id
     cmd << subcommand
-    cmd << params.is_a?(String) ? params : params.join(' ')
+    cmd << params
 
     cmd.join(' ')
   end
