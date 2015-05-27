@@ -38,6 +38,23 @@ examples:
 $ metabridge
 ```
 
+In order to get the list of remote devices connected to the network, use the following command:
+
+```shell
+$ metabridge list
+Device found: 10.10.1.61      d8:50:e6:77:d0:c7 
+Device found: 10.10.1.65      d8:50:e6:7f:2d:5a 
+Device found: 10.10.1.79      ac:22:0b:45:99:49 
+Device found: 10.10.1.57      d8:50:e6:72:db:f6 
+```
+
+If you want to get the `logcat` output from one device, use the MAC address 
+(specified in the second column):
+
+```shell
+$ metabridge log -d d8:50:e6:77:d0:c7
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
