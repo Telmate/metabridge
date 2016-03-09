@@ -8,7 +8,8 @@ class MetaBridge::ARP
 
   def connections
     connections = []
-    run('arp -i eth1 -a') do |out|
+    # TODO Make the iface configurable
+    run('arp -i em0 -a') do |out|
       while line = out.gets
         connections << parse_arp_line(line)
       end
