@@ -40,7 +40,7 @@ RAG
 
   desc 'log', 'Output the logcat for a specific device'
   option 'd', required: true
-  long_desc <<RAG
+  long_desc <<-RAG
 Get the output of logcat for a specific Android device using the Android
 Debug Bridge. The required parameter is the device MAC address, which can be
 obtained using `metabridge list`
