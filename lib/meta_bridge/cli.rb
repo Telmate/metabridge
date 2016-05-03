@@ -4,7 +4,7 @@ require 'meta_bridge/device'
 class MetaBridge::CLI < Thor
 
   desc 'list', 'List all the connected Android devices'
-  long_desc <<RAG
+  long_desc <<-RAG
 The list command will show all the possible tablets that might be connected to
 the current AP using the ARP table. It's a different method than using plain
 `adb devices` because it also shows devices without any previous connections.
